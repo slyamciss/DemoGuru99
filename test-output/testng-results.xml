@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoGuru99" duration-ms="54583" started-at="2020-04-10T19:58:07 EDT" finished-at="2020-04-10T19:59:02 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54583" started-at="2020-04-10T19:58:07 EDT" finished-at="2020-04-10T19:59:02 EDT">
+      <class name="com.demoguru99.qa.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demoguru99.qa.test.HomePageTest@757942a1]" name="setUp" is-config="true" duration-ms="7210" started-at="2020-04-10T19:58:17 EDT" finished-at="2020-04-10T19:58:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyhomePageTitle()[pri:1, instance:com.demoguru99.qa.test.HomePageTest@757942a1]" name="verifyhomePageTitle" duration-ms="15" started-at="2020-04-10T19:58:25 EDT" finished-at="2020-04-10T19:58:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.qa.test.HomePageTest@757942a1]" name="tearDown" is-config="true" duration-ms="1333" started-at="2020-04-10T19:58:25 EDT" finished-at="2020-04-10T19:58:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoguru99.qa.test.HomePageTest -->
+      <class name="com.demoguru99.qa.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demoguru99.qa.test.LoginPageTest@69b0fd6f]" name="setUp" is-config="true" duration-ms="6982" started-at="2020-04-10T19:58:07 EDT" finished-at="2020-04-10T19:58:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateloginPageTitle()[pri:1, instance:com.demoguru99.qa.test.LoginPageTest@69b0fd6f]" name="validateloginPageTitle" duration-ms="13" started-at="2020-04-10T19:58:14 EDT" finished-at="2020-04-10T19:58:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginPageTitle -->
+        <test-method status="PASS" signature="validateLoginCredential()[pri:2, instance:com.demoguru99.qa.test.LoginPageTest@69b0fd6f]" name="validateLoginCredential" duration-ms="2051" started-at="2020-04-10T19:58:14 EDT" finished-at="2020-04-10T19:58:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginCredential -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.qa.test.LoginPageTest@69b0fd6f]" name="tearDown" is-config="true" duration-ms="1127" started-at="2020-04-10T19:58:16 EDT" finished-at="2020-04-10T19:58:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoguru99.qa.test.LoginPageTest -->
+      <class name="com.demoguru99.qa.test.EditCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demoguru99.qa.test.EditCustomerTest@66d1af89]" name="setUp" is-config="true" duration-ms="9749" started-at="2020-04-10T19:58:36 EDT" finished-at="2020-04-10T19:58:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterCustomerId()[pri:2, instance:com.demoguru99.qa.test.EditCustomerTest@66d1af89]" name="enterCustomerId" duration-ms="70" started-at="2020-04-10T19:58:46 EDT" finished-at="2020-04-10T19:58:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerId -->
+        <test-method status="PASS" signature="verifyEditCustomerPageTitle()[pri:1, instance:com.demoguru99.qa.test.EditCustomerTest@66d1af89]" name="verifyEditCustomerPageTitle" duration-ms="0" started-at="2020-04-10T19:58:46 EDT" finished-at="2020-04-10T19:58:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditCustomerPageTitle -->
+        <test-method status="PASS" signature="clickSubmitBtn()[pri:3, instance:com.demoguru99.qa.test.EditCustomerTest@66d1af89]" name="clickSubmitBtn" duration-ms="891" started-at="2020-04-10T19:58:46 EDT" finished-at="2020-04-10T19:58:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSubmitBtn -->
+        <test-method status="PASS" signature="validateEditCustomerSymbol()[pri:4, instance:com.demoguru99.qa.test.EditCustomerTest@66d1af89]" name="validateEditCustomerSymbol" duration-ms="70" started-at="2020-04-10T19:58:47 EDT" finished-at="2020-04-10T19:58:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditCustomerSymbol -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.qa.test.EditCustomerTest@66d1af89]" name="tearDown" is-config="true" duration-ms="1299" started-at="2020-04-10T19:58:47 EDT" finished-at="2020-04-10T19:58:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoguru99.qa.test.EditCustomerTest -->
+      <class name="com.demoguru99.qa.test.NewCustomerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demoguru99.qa.test.NewCustomerPageTest@4a87761d]" name="setUp" is-config="true" duration-ms="8612" started-at="2020-04-10T19:58:26 EDT" finished-at="2020-04-10T19:58:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifynewCustomerPageTitle()[pri:1, instance:com.demoguru99.qa.test.NewCustomerPageTest@4a87761d]" name="verifynewCustomerPageTitle" duration-ms="16" started-at="2020-04-10T19:58:35 EDT" finished-at="2020-04-10T19:58:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynewCustomerPageTitle -->
+        <test-method status="PASS" signature="fillFormToAddNewCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.demoguru99.qa.test.NewCustomerPageTest@4a87761d]" name="fillFormToAddNewCustomer" duration-ms="759" started-at="2020-04-10T19:58:35 EDT" data-provider="getDemoGuruData" finished-at="2020-04-10T19:58:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tinin Dembele]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07262000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[260 Christiana rd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New castle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delawere]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[258905.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[+13027613557]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[tinnin@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Tinin225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormToAddNewCustomer -->
+        <test-method status="PASS" signature="clickSubmmitButton()[pri:3, instance:com.demoguru99.qa.test.NewCustomerPageTest@4a87761d]" name="clickSubmmitButton" duration-ms="69" started-at="2020-04-10T19:58:36 EDT" finished-at="2020-04-10T19:58:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSubmmitButton -->
+      </class> <!-- com.demoguru99.qa.test.NewCustomerPageTest -->
+      <class name="com.demoguru99.qa.test.NewAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demoguru99.qa.test.NewAccountTest@8646db9]" name="setUp" is-config="true" duration-ms="10656" started-at="2020-04-10T19:58:48 EDT" finished-at="2020-04-10T19:58:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNewAccountPageTitleTitle()[pri:1, instance:com.demoguru99.qa.test.NewAccountTest@8646db9]" name="verifyNewAccountPageTitleTitle" duration-ms="5" started-at="2020-04-10T19:58:59 EDT" finished-at="2020-04-10T19:58:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewAccountPageTitleTitle -->
+        <test-method status="PASS" signature="validateCustomerInfo()[pri:2, instance:com.demoguru99.qa.test.NewAccountTest@8646db9]" name="validateCustomerInfo" duration-ms="1535" started-at="2020-04-10T19:58:59 EDT" finished-at="2020-04-10T19:59:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerInfo -->
+        <test-method status="PASS" signature="messageVerification()[pri:3, instance:com.demoguru99.qa.test.NewAccountTest@8646db9]" name="messageVerification" duration-ms="72" started-at="2020-04-10T19:59:00 EDT" finished-at="2020-04-10T19:59:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.qa.test.NewAccountTest@8646db9]" name="tearDown" is-config="true" duration-ms="1378" started-at="2020-04-10T19:59:00 EDT" finished-at="2020-04-10T19:59:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoguru99.qa.test.NewAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- DemoGuru99 -->
+</testng-results>
